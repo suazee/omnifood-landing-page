@@ -24,6 +24,10 @@
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
+.sticky .nav-menu-btn {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .main-nav-list {
   display: flex;
   align-items: center;
