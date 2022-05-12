@@ -246,6 +246,7 @@ strong {
 .close {
   display: none;
   color: #333;
+  background: none;
 }
 
 .link:link,
