@@ -1,0 +1,16 @@
+{
+  "name": "Johnson",
+  "icons": [
+    {
+      "src": "img/favicon192size.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+
+    {
+      "src": "img/favicon512size.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
