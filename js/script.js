@@ -5,13 +5,11 @@ const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
 // Make mobile navigation work
-const html = document.querySelector("html");
 const headerEl = document.querySelector(".header");
 const navMenuBtn = document.querySelector(".nav-menu-btn");
 
 navMenuBtn.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
-  html.classList.toggle("prevent-scroll");
 });
 
 // Smooth scroll animation
@@ -39,7 +37,6 @@ allLinks.forEach((link) => {
     // Close mobile navigation
     if (link.classList.contains("main-nav-item")) {
       headerEl.classList.toggle("nav-open");
-      html.classList.toggle("prevent-scroll");
     }
   });
 });
