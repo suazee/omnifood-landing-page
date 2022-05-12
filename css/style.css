@@ -70,6 +70,10 @@ html {
   /* scroll-behavior: smooth; */
 }
 
+.prevent-scroll {
+  overflow: hidden;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
